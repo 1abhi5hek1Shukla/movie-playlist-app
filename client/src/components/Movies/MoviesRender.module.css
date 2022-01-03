@@ -1,0 +1,55 @@
+.movie {
+  /* border: 2px solid red; */
+  width: 40rem;
+  /* height: 5rem; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 1rem;
+}
+.movie-content {
+  width: 100%;
+  /* height: 2rem; */
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  gap: 1rem;
+  align-items: center;
+  /* border-radius: 5px; */
+  border: none;
+}
+.movie-content img {
+  width: 3rem;
+}
+.movie-content-text {
+  display: grid;
+  text-align: left;
+}
+.movie:nth-child(even) .movie-content {
+  background-color: rgb(44, 40, 34);
+}
+.movie:nth-child(odd) .movie-content {
+  background-color: rgb(42, 49, 49);
+}
+.movies {
+  /* border: 2px solid rgb(43, 43, 65); */
+  width: 40rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 2px;
+}
+.movie button {
+  background-color: grey;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 7rem;
+  font-weight: bold;
+  font-size: x-large;
+  border-radius: 900%;
+}

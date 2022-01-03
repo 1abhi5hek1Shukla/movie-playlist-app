@@ -1,0 +1,54 @@
+:root {
+  --blue: #064bcc;
+  --white: #faf0e6;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50rem;
+  height: 40vh;
+  margin: 0 auto;
+}
+
+.form div {
+  /* padding: 0 1rem; */
+  width: 50%;
+  /* border: 2px solid red; */
+}
+.button {
+  width: 50%;
+  height: 2rem;
+  border-radius: 5px;
+  border: 1.5px solid var(--blue);
+  cursor: pointer;
+  font-weight: bold;
+  font-size: large;
+  color: var(--blue);
+}
+.button:focus,
+.button:hover {
+  background-color: var(--blue);
+  color: var(--white);
+  outline: none;
+}
+
+.else-button {
+  width: calc(25% - 1rem);
+  cursor: pointer;
+  border: 1.5px solid rgb(11, 56, 141);
+  height: 2rem;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: large;
+  color: rgb(11, 56, 141);
+}
+
+.else-button:focus,
+.else-button:hover {
+  background-color: rgb(11, 56, 141);
+  color: var(--white);
+  outline: none;
+}

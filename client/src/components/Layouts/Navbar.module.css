@@ -1,0 +1,18 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  justify-content: space-between;
+  padding: 0 10%;
+  background-color: black;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.logo {
+  height: 3rem;
+}
